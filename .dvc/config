@@ -1,4 +1,8 @@
 [core]
-    remote = myremote
+    remote = gdrive-remote
 ['remote "myremote"']
     url = gdrive://1tWnI07pJHfpFeeWpsAtGg5aCIGZpQcwi
+['remote "gdrive-remote"']
+    url = gdrive://1tWnI07pJHfpFeeWpsAtGg5aCIGZpQcwi
+    gdrive_use_service_account = true
+    gdrive_service_account_json_file_path = /Users/semyon/Desktop/learning_dvc/.dvc/g-drive.json
