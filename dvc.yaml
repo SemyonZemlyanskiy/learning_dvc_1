@@ -1,0 +1,10 @@
+stages:
+  prepare:
+    cmd: python3.10 preprocess.py
+    deps:
+      - preprocess.py
+
+  train:
+    cmd: python3.10 learn.py
+    deps:
+      - learn.py
