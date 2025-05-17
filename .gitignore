@@ -174,3 +174,4 @@ cython_debug/
 .pypirc
 /data
 /.dvc/g-drive.json
+/mlruns
