@@ -1,0 +1,16 @@
+schema: '2.0'
+stages:
+  prepare:
+    cmd: python3.10 preprocess.py
+    deps:
+    - path: preprocess.py
+      hash: md5
+      md5: deb62b5cda5f64fb72522a0683890aff
+      size: 756
+  train:
+    cmd: python3.10 learn.py
+    deps:
+    - path: learn.py
+      hash: md5
+      md5: f6eeef5191780a2ff42d683bef5edc47
+      size: 1476
